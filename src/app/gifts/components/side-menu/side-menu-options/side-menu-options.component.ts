@@ -19,13 +19,13 @@ export class SideMenuOptionsComponent {
     {
       icon: 'fa-solid fa-chart-line',
       label: 'Trending',
-      subLabel: 'Gifs Populares',
+      subLabel: 'Popular Gift',
       route: '/dashboard/trending'
     },
     {
       icon: 'fa-solid fa-magnifying-glass',
-      label: 'Buscador',
-      subLabel: 'Gifs Populares',
+      label: 'Searcher',
+      subLabel: 'Popular Gifts',
       route: '/dashboard/search'
     },
   ]
