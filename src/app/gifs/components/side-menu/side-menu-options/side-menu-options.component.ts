@@ -1,6 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
-import { GifsService } from 'src/app/gifts/services/gifs.service';
+import { GifsService } from 'src/app/gifs/services/gifs.service';
 
 interface MenuOption {
   icon: string;
@@ -21,13 +21,13 @@ export class SideMenuOptionsComponent {
     {
       icon: 'fa-solid fa-chart-line',
       label: 'Trending',
-      subLabel: 'Popular Gift',
+      subLabel: 'Popular Gifs',
       route: '/dashboard/trending'
     },
     {
       icon: 'fa-solid fa-magnifying-glass',
       label: 'Searcher',
-      subLabel: 'Popular Gifts',
+      subLabel: 'Popular Gifs',
       route: '/dashboard/search'
     },
   ]
