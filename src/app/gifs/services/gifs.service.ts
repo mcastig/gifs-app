@@ -47,7 +47,7 @@ export class GifsService {
     })
   }
 
-  searchGifs(query: string) {
+  public searchGifs(query: string) {
     return this.http.get<GiphyResponse>(`${ environment.giphyUrl }/gifs/search`, {
       params: {
         api_key: environment.giphyApiKey,

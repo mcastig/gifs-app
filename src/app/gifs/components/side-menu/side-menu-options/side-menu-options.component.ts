@@ -12,8 +12,7 @@ interface MenuOption {
 @Component({
   selector: 'gifs-side-menu-options',
   imports: [RouterLink, RouterLinkActive],
-  templateUrl: './side-menu-options.component.html',
-  styleUrl: './side-menu-options.component.css'
+  templateUrl: './side-menu-options.component.html'
 })
 export class SideMenuOptionsComponent {
   public gifService = inject(GifsService);

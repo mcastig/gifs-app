@@ -8,8 +8,7 @@ import { GifListComponent } from "../../components/gif-list/gif-list.component";
 @Component({
   selector: 'app-gif-history',
   imports: [GifListComponent],
-  templateUrl: './gif-history.component.html',
-  styleUrl: './gif-history.component.css'
+  templateUrl: './gif-history.component.html'
 })
 export default class GifHistoryComponent {
   public gifsService = inject(GifsService);

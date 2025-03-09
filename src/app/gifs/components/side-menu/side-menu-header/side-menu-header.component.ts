@@ -4,8 +4,7 @@ import { environment } from '@environments/environment';
 @Component({
   selector: 'gifs-side-menu-header',
   imports: [],
-  templateUrl: './side-menu-header.component.html',
-  styleUrl: './side-menu-header.component.css'
+  templateUrl: './side-menu-header.component.html'
 })
 export class SideMenuHeaderComponent {
   envs = environment;

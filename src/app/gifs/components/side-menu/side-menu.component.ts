@@ -5,7 +5,6 @@ import { SideMenuHeaderComponent } from "./side-menu-header/side-menu-header.com
 @Component({
   selector: 'gifs-side-menu',
   imports: [SideMenuOptionsComponent, SideMenuHeaderComponent],
-  templateUrl: './side-menu.component.html',
-  styleUrl: './side-menu.component.css'
+  templateUrl: './side-menu.component.html'
 })
 export class SideMenuComponent { }

@@ -5,8 +5,7 @@ import { GifsService } from '../../services/gifs.service';
 @Component({
   selector: 'app-trending-page',
   imports: [GifListComponent],
-  templateUrl: './trending-page.component.html',
-  styleUrl: './trending-page.component.css'
+  templateUrl: './trending-page.component.html'
 })
 export default class TrendingPageComponent {
   public gifService = inject(GifsService);
